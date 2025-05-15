@@ -295,7 +295,7 @@
     <build>
         <defaultGoal>install</defaultGoal>
         <finalName>petclinic</finalName>
-        <resources>
+<!--         <resources>
             <resource>
                 <directory>${basedir}/src/main/resources</directory>
                 <filtering>true</filtering>
@@ -303,13 +303,13 @@
         </resources>
         <testResources>
             <testResource>
-                <!-- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class  -->
-                <directory>${project.basedir}/src/test/java</directory>
+                <!-- -- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class -- -->
+<!--                 <directory>${project.basedir}/src/test/java</directory>
             </testResource>
             <testResource>
                 <directory>${project.basedir}/src/test/resources</directory>
             </testResource>
-        </testResources>
+        </testResources> -->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
