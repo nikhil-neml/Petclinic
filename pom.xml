@@ -303,7 +303,7 @@
         </resources>
         <testResources>
             <testResource>
-                <!-- -- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class -- -->
+                <!-- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class  -->
                 <directory>${project.basedir}/src/test/java</directory>
             </testResource>
             <testResource>
@@ -334,7 +334,6 @@
                 <version>${maven-war-plugin.version}</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <outputDirectory>/var/jenkins_home/workspace/CICD/target</outputDirectory>
                 </configuration>
             </plugin>
 
