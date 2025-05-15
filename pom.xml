@@ -334,6 +334,7 @@
                 <version>${maven-war-plugin.version}</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <outputDirectory>/var/jenkins_home/workspace/CICD/target</outputDirectory>
                 </configuration>
             </plugin>
 
